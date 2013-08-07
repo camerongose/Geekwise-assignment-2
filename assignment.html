@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angular day 3</title>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<div ng-app="counterApp">
+			<div ng-controller="CountCtrl">
+				<div listmore="countDownFromFive()" rollover="label" rollout="label">
+					Count down from five
+				</div>
+				<div listmore="countUpToFive()" rollover="label" rollout="label">
+					Count up to five
+				</div>
+
+			</div>
+		</div>
+
+		<script src="http://code.angularjs.org/1.0.6/angular.min.js"></script>
+		<script src="assignment.js"></script>
+	</body>		
+</html>

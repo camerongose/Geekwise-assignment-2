@@ -1,0 +1,14 @@
+Create a directive with restriction "A", call it listmore
+
+when listMore is clicked 
+call a method on yout controller
+
+Your controller should have two methods:
+
+1- countDownFromFive
+2- countUpToFice
+
+console.log the output of you controller
+
+Bonus: On rollover, have your directive add the :label: 
+class to its <div>. Remove that class on roll out
